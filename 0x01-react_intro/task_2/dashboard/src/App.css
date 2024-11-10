@@ -18,6 +18,10 @@
 .App-body {
   margin: 180px;
 }
+.App-body p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .App-footer {
   width: 100%;
   display: flex;
