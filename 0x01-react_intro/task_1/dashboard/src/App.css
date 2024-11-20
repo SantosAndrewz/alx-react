@@ -1,28 +1,36 @@
 .App-header {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
+  padding-left: 25%;
+  font-size: 18px;
   color: #e01d3f;
-  border-bottom: 2px solid #e01d3f;
+  border-bottom: 3px solid #e01d3f;
   margin-left: 0;
-  padding-left: 0;
+  padding-bottom: 50px;
+}
 
-}
 .App-header img {
-  width: 180px;
-  margin-left: 0;
-  padding-left: 0;
+  width: 140px;
+  left: 25px;
+  top: 0;
+  position: absolute;
 }
+
 .App-body {
-  margin: 180px;
+  margin: 450px;
 }
+
+.App-body p {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
 .App-footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   font-style: italic;
-  border-top: 2px solid #e01d3f;
+  border-top: 3px solid #e01d3f;
 }
