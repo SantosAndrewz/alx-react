@@ -1,4 +1,4 @@
-import {map} from 'immutable';
+import { Map } from 'immutable';
 
 /**
  * Script creates and exports a constant named map.
