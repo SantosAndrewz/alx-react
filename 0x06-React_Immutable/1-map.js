@@ -7,5 +7,8 @@ import { Map } from "immutable";
  */
 
 export default function getImmutableObject(object) {
+    if (typeof object !== 'object' || object === null) {
+        throw new TypeError('Input must be a non-null object');
+    }
     return Map(object);
 }
