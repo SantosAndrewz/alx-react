@@ -1,5 +1,4 @@
 import { Map } from 'immutable';
-
 /**
  * Script creates and exports a constant named map.
  */

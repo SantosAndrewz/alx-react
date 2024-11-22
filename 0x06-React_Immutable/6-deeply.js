@@ -1,7 +1,6 @@
 import { Map } from 'immutable';
-
 /**
- * Script for deeply merging 2 objects using Map and mergeDeep from Immutable.js
+ * Script deeply merges 2 objects using Map and mergeDeep from Immutable.js
  */
 
 export default function mergeDeeplyElements(page1, page2) {

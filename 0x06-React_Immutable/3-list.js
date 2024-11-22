@@ -1,5 +1,4 @@
 import { List } from 'immutable';
-
 /**
  * Scripts converts an array into an Immutable List.
  * @param {Array} array - The array to be converted into an Immutable List.
