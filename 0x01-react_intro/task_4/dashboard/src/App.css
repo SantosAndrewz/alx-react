@@ -1,0 +1,62 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25%;
+  font-size: 18px;
+  color: #e01d3f;
+  border-bottom: 3px solid #e01d3f;
+  margin-left: 0;
+  padding-bottom: 40px;
+  padding-top: 120px;
+}
+
+.App-header img {
+  width: 140px;
+  left: 25px;
+  top: 0;
+  position: absolute;
+  padding-top: 100px;
+}
+
+.App-body {
+  margin: 10%;
+  position: relative;
+  padding: 30px;
+}
+
+.App-body p {
+  position: absolute;
+  left: 4%;
+  top: -80%;
+  font-weight: bold;
+}
+
+.App-body .login_form {
+  position: absolute;
+  top: 1px;
+  padding-bottom: 200px;
+}
+
+.App-body .login_form label {
+  font-weight: bold;
+}
+
+.App-body .login_form input {
+  padding: 2px;
+}
+
+.App-body .login_form button {
+  padding: 4px 10px;
+  border: none;
+  background-color: #918f8f;
+  margin-left: 10px;
+}
+.App-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-style: italic;
+  border-top: 3px solid #e01d3f;
+  margin-top: 200px;
+}

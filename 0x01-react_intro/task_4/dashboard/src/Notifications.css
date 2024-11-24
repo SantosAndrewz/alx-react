@@ -1,0 +1,21 @@
+.Notifications {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    border: 2px dotted #c4102e;
+    position: absolute;
+    top: 3px;
+    width: 98%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Notifications li[data-priority="default"] {
+    color: blue;
+}
+.Notifications li[data-priority="urgent"] {
+    color: red;
+}
